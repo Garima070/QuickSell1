@@ -1,5 +1,4 @@
-
-.Card {
+.ticketCard {
 	background-color: white;
 	border: 3px solid #ececec;
 	border-radius: 15px;
@@ -26,21 +25,20 @@
 	border: 1px solid white;
 	background-color: grey;
 }
-.image-container {
+.ticketImageContainer {
 	position: relative;
 }
 .ticketImage {
 	height: 30px;
 	width: 30px;
 	border-radius: 50px;
-	float:right;
 }
 .ticketIdContainer {
 	color: #94979c;
 	font-weight: 600;
 }
 
-.card-Container {
+.ticketNameContainer {
 	color: #292c30;
 	font-weight: 700;
   height: 43px;
@@ -65,15 +63,15 @@
 	height: 30px;
 	width: 30px;
   border-radius: 5px;
-	padding: 1px;
+	padding: 3px;
 	border: 0px solid #ececf4;
 }
 .featureRequestTextContainer {
 	border-radius: 5px;
 	display: flex;
   align-items: center;
-  padding: 0px 9px;
-  gap:  7px;
+  padding: 0px 4px;
+  gap:  5px;
 }
 .featureRequestStatus {
 	height: 8px;

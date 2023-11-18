@@ -1,13 +1,12 @@
-// components/TicketCard.js
 import React from 'react';
 import './Navbar.css';
 
 const Page = ({ ticket }) => {
 	return (
-		<div className='Card'>
-			<div className='card-container'>
-				<div className='image-container'>
+		<div className='ticketCard'>
+			<div className='ticketIdAndImagContainer'>
 				<div className='ticketIdContainer'>{ticket.id}</div>
+				<div className='ticketImageContainer'>
 					<img
 						className='ticketImage'
 						src='https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'
@@ -16,7 +15,7 @@ const Page = ({ ticket }) => {
 					<div className='statusIndicator'></div>
 				</div>
 			</div>
-			<div className='card-container'>{ticket.title}</div>
+			<div className='ticketNameContainer'>{ticket.title}</div>
 			<div className='featureRequestContainer'>
 				<div className='featureRequestIconContainer'>
 					<svg
